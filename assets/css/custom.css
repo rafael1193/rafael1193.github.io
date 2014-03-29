@@ -6,8 +6,8 @@
 
 #jumbotron-404 {
   background: url("../img/404.png") repeat scroll center center transparent;
-  background-size: cover;
-  background-repeat:no-repeat;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .footer {
