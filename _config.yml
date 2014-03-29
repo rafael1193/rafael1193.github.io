@@ -1,0 +1,5 @@
+markdown: rdiscount
+pygments: true
+permalink: /blog/:year/:month/:day/:title
+name: rafael1193's webpage
+description: If it's not on the internet, it doesn't exist

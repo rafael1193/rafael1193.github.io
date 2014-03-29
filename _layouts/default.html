@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>rafael1193's home{% if page.title }%} - {{page.title}}{% endif %}</title>
+    <link rel="shortcut icon" href="{{site.url}}/assets/ico/favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    
+    <!-- Syntax highlighting -->
+    <link href="/assets/css/pygments.css" rel="stylesheet" >
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/h    tml5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{{site.url}}/">rafael1193</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li {% if page.pagecategory == 'Home'     %}class="active"{% endif %}><a href="{{site.url}}/">Home</a></li>
+            <li {% if page.pagecategory == 'About'    %}class="active"{% endif %}><a href="{{site.url}}/about">About</a></li>
+            <li {% if page.pagecategory == 'Contact'  %}class="active"{% endif %}><a href="{{site.url}}/contact">Contact</a></li>
+            <li {% if page.pagecategory == 'Software' %}class="active"{% endif %}><a href="{{site.url}}/software">Software</a></li>
+            <li {% if page.pagecategory == 'Hardware' %}class="active"{% endif %}><a href="{{site.url}}/hardware">Hardware</a></li>
+            <li {% if page.pagecategory == 'Blog'     %}class="active"{% endif %}><a href="{{site.url}}/blog">Blog</a></li>
+            <!--
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            -->
+          </ul>
+          <div class="col-sm-3 col-md-3 pull-right">
+            <form class="navbar-form" role="search" target="_blank" method="get" action="http://duckduckgo.com">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" name="q" id="srch-term">
+                <input value="rafael1193.github.io" name="sites" type="hidden"/>
+                <div class="input-group-btn">
+                  <button value="Search" class="btn btn-default" type="submit"><span><span class="glyphicon glyphicon-search"></span></span></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="wrapper">
+{{content}}
+    </div>
+    <div class="push"></div>
+    <footer>
+    <div class="footer">
+      <p>© 2014 Rafael Bailón Ruiz.</p>
+      <p>This work is licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+      <p>
+        <a href="#">Back to top ↑</a>
+      </p>
+    </div>
+    <footer>
+  </body>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://getbootstrap.com/dist/js/bootstrap.min.js""></script>
+</html>
