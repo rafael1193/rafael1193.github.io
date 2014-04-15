@@ -8,6 +8,9 @@
     <meta name="author" content="">
     <title>rafael1193's home{% if page.title }%} - {{page.title}}{% endif %}</title>
     <link rel="shortcut icon" href="{{site.url}}/assets/ico/favicon.ico">
+    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  	<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -21,7 +24,7 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/h    tml5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
@@ -78,10 +81,9 @@
       </div>
     </div>
     <div class="wrapper">
-{{content}}
+			{{content}}
     </div>
     <div class="push"></div>
-    <footer>
     <div class="footer">
       <p>© 2014 Rafael Bailón Ruiz.</p>
       <p>This work is licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
@@ -89,8 +91,5 @@
         <a href="#">Back to top ↑</a>
       </p>
     </div>
-    <footer>
   </body>
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="http://getbootstrap.com/dist/js/bootstrap.min.js""></script>
 </html>
