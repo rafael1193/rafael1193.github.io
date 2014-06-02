@@ -18,7 +18,8 @@ La recepción pública de la organización que acaba de nacer ha sido muy positi
  * [Andalucía de hoy (30 mayo 2014)](http://www.andaluciadehoy.com/noticias/ultima-hora/50943-estudiantes-de-ingenieria-de-la-ugr-crean-una-rama-estudiantil-del-instituto-de-ingenieria-electrica-y-electronica-ieee.html)
  * [Cadena Ser (29 mayo 2014)](http://www.radiogranada.es/2014/05/29/estudiantes-de-ingenieria-de-la-ugr-crean-una-rama-estudiantil-del-instituto-de-ingenieria-electrica-y-electronica/)
  * [Infocosta Tropical (29 mayo 2014)](http://www.infocostatropical.com/noticia.asp?area=portada&id=57083&id_area=1&id_seccion=17&seccion=Provincia)
- * [Instituto de la Ingeniería de España](http://www.iies.es/Estudiantes-de-la-Universidad-de-Granada-crean-una-rama-local-del-IEEE_a3665.html)
+ * [Instituto de la Ingeniería de España (29 mayo 2014)](http://www.iies.es/Estudiantes-de-la-Universidad-de-Granada-crean-una-rama-local-del-IEEE_a3665.html)
+ * [Aula Magna (2 junio 2014)](http://www.aulamagna.com.es/estudiantes-de-la-ugr-crean-una-rama-estudiantil-del-instituto-de-ingenieros-electricos-y-electronicos-ieee/)
 
 Espero que el éxito de este arranque no sea solo *hype* y hagamos honor con nuestro trabajo a las expectativas que han puesto sobre nosotros
 
