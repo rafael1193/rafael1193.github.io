@@ -1,0 +1,19 @@
+---
+layout: page
+---
+<div id="hub">
+  <section id="header-content">
+    <h1>{{ page.title }}</h1>
+  </section>
+  <section class="bg"></section>
+  <div class="row">
+    <!-- Aside Navigation  -->
+    <aside id="aside" class="col-md-4">
+      {% include hubaside.html %}
+    </aside>
+    <!-- Post List -->
+    <section id="content" class="col-md-8">
+      {{ content }}
+    </section>
+  </div>
+</div>
