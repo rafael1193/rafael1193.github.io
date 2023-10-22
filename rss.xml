@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title></title>
+<description>Rafael Bailon-Ruiz personal website</description>	
+<link></link>
+<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+
+<item>
+<title>Sample Post with Markdown</title>
+<description>&lt;p&gt;This post show result from awesome Markdown techniques like jekyll. 
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt; supports to transform your plain text into static websites and blogs.&lt;/p&gt;
+
+&lt;p&gt;you can easy to change style in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_utility.html&lt;/code&gt; and a sample of the formatting follows.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;이 포스팅은 놀라운 Markdown 기술들로 만들어진 결과물입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_utility.html&lt;/code&gt;에서 스타일을 변경할 수 있으며, 서식 샘플은 아래와 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;1. HTML headings&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;This is heading 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;This is heading 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;This is heading 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;This is heading 4&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h5&amp;gt;&lt;/span&gt;This is heading 5&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h5&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h6&amp;gt;&lt;/span&gt;This is heading 6&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h6&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1&gt;This is heading 1&lt;/h1&gt;
+&lt;h2&gt;This is heading 2&lt;/h2&gt;
+&lt;h3&gt;This is heading 3&lt;/h3&gt;
+&lt;h4&gt;This is heading 4&lt;/h4&gt;
+&lt;h5&gt;This is heading 5&lt;/h5&gt;
+&lt;h6&gt;This is heading 6&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;2. bold text&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;This is normal text - &lt;span class=&quot;nt&quot;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;and this is bold text&lt;span class=&quot;nt&quot;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This is normal text - &lt;b&gt;and this is bold text&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;3. list&lt;/h2&gt;
+&lt;h3&gt;a. unordered list&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;- Coffee
+- Tea
+- Milk&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;b. ordered list&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;1. Coffee
+2. Tea
+3. Milk&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;4. hyperlink&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;[naye0ng&apos;s blog](https://naye0ng.github.io)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://naye0ng.github.io&quot;&gt;naye0ng’s blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;5. image&lt;/h2&gt;
+&lt;p&gt;Try using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.width-30&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.width-40&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.width-50&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.width-60&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.width-70&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.width-80&lt;/code&gt; class! You can easily change the image width.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;![sample image](/assets/img/koreaSunset.jpg)
+![sample image](/assets/img/koreaSunset.jpg){: .width-30}
+![sample image](/assets/img/koreaSunset.jpg){: .width-50}
+![sample image](/assets/img/koreaSunset.jpg){: .width-80}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/koreaSunset.jpg&quot; alt=&quot;sample image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/koreaSunset.jpg&quot; alt=&quot;sample image&quot; class=&quot;width-30&quot; /&gt;
+&lt;img src=&quot;/assets/img/koreaSunset.jpg&quot; alt=&quot;sample image&quot; class=&quot;width-50&quot; /&gt;
+&lt;img src=&quot;/assets/img/koreaSunset.jpg&quot; alt=&quot;sample image&quot; class=&quot;width-80&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;5. table&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;| Header 1  | Header 2 | Header 3 |
+| :------- | :-------: | -------: |
+| Content 1  | Content 2 | Content 3 |
+| Content 1  | Content 2 | Content 3 |&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Header 1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Header 2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Header 3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Content 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Content 2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Content 3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Content 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Content 2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Content 3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+<pubDate>Sat, 08 Jun 2019 00:00:00 +0200</pubDate>
+<link>/2019/06/08/markdown-and-html.html</link>
+<guid isPermaLink="true">/2019/06/08/markdown-and-html.html</guid>
+</item>
+
+<item>
+<title>IEEExtreme 8.0</title>
+<description>&lt;p&gt;IEEExtreme is a global competition in which IEEE student members have 24 hours to try to program the solution to a set of problems. Eighth edition of this contest was held the 18th October 2014 from 00:00 to 23:59 UTC+0 (+2 hours in Spain). 1750 teams from 60+ countries entered the competition.&lt;/p&gt;
+
+&lt;p&gt;For the first time, University of Granada students participated on IEEExtreme. Three teams were formed: Nazaries, HerederosDeTuring and MineCoders (my team). 9 people in total. My team-mates were Benito Palacios (&lt;a href=&quot;https://twitter.com/pleonex&quot;&gt;@pleonex&lt;/a&gt;) and Nico Guerrero (&lt;a href=&quot;https://twitter.com/nitehack&quot;&gt;@nitehack&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;We started competition at 02:00 UTC+2 and lasted, without having any rest, until 02:00 next day. Impressively, we managed to solve successfully 11 of the 23 problems proposed. This work got 1125.78 points and we ranked 305th position on global leaderboard, 127th on IEEE Region 8 and 4th position on the spanish one. Source code of problem solutions are available at &lt;a href=&quot;https://github.com/ieeeugrsb/ieeextreme8&quot;&gt;student branch IEEExtreme 8.0 github repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And finally, just for fun, a timelapse of the 24-hour competition!&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube-nocookie.com/embed/ef1lyHGSies?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+<pubDate>Fri, 24 Oct 2014 00:00:00 +0200</pubDate>
+<link>/2014/10/24/ieeextreme-8-0.html</link>
+<guid isPermaLink="true">/2014/10/24/ieeextreme-8-0.html</guid>
+</item>
+
+<item>
+<title>Circuit simulation on GNU/Linux</title>
+<description>&lt;p&gt;Circuit simulation, a daily task for electronic engineers, is not easy on GNU/Linux. Proof of it is I have seen users of free operating systems setting a Windows virtual machine with the only purpose of running PSPICE or LTSPICE. There are several simulators that run on GNU/Linux like Gnucap, ngspice and QUCS. They have very powerful features, but some important flaws are present:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;QUCS&lt;/em&gt; have a very good QT based GUI, it has a lot of features and it is relatively easy to use. But it is not based on SPICE, the standard on educational and enterprise environments.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;Gnucap&lt;/em&gt; is another alternative. But its last stable release dates from 2006 and it is command line based only.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;ngspice&lt;/em&gt; is the successor of the original SPICE3 and it’s free/libre but doesn’t have a GUI. There are several 3rd party graphical interfaces as gspiceui or easyspice but they doesn’t work reasonably well.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So &lt;strong&gt;there are&lt;/strong&gt; free circuit simulators but they are not easy to use or don’t meet the required criteria of being based on SPICE.&lt;/p&gt;
+
+&lt;p&gt;Another important side of circuit simulation is schematic design. In this case, available programs for this are useful and easy to use because they are GUI based. Examples are &lt;em&gt;gschem&lt;/em&gt; from gEDA and &lt;em&gt;eeschema&lt;/em&gt; from KiCad suite.&lt;/p&gt;
+
+&lt;p&gt;Following schematic design a netlisting software is required for passing circuit information to a simulator. This task can be accomplished by &lt;em&gt;gnetlist&lt;/em&gt;, again from gEDA suite.&lt;/p&gt;
+
+&lt;p&gt;As you can see, there are most of the ingredients necessary for a very good circuit simulation experience: schematic editor, netlister and simulator, but they are not integrated. There is not any free system that could load your schematic, convert it to a netlist, simulate it and show the results with a click. You have to run the process manually.&lt;/p&gt;
+
+&lt;p&gt;For instance:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Generate a netlist from schematic file&lt;/span&gt;
+gnetlist &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; spice-sdb &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; circuit.net &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; circuit.sch
+&lt;span class=&quot;c&quot;&gt;# run ngspice on interactive mode and write simulation commands manually&lt;/span&gt;
+ngspice circuit.cir
+&lt;span class=&quot;c&quot;&gt;# or run ngspice on batch mode and get simulation results from simulation &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# parameters written on netlist&lt;/span&gt;
+ngspice &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; circuit.cir
+&lt;span class=&quot;c&quot;&gt;# numerical results are shown on an ASCII table and plots are given on an ugly&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# X11 window or on an even uglier ASCII plot&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;There is no option to get this results on a csv file, that could be opened by a spreadsheet program, or save plots on png and svg modern graphic formats.&lt;/p&gt;
+
+&lt;p&gt;Additionally, ngspice and gnucap need device models, a set of parameters that define the behavior of a physical component. This is the really, really, really difficult task to solve because there are not free, as in free speech, device model definitions. They are published by manufacturers with unclear and potentially non-free licenses. Some SPICE parameters can be extracted from devices, but not all of them. Non-free content cannot be included on free operating systems like Ubuntu, Debian or Fedora, so this is a big issue that cannot be solved without device manufacturer implication.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/436547/4139264/0a6d404a-3399-11e4-9ac1-92799f66ba3b.png&quot; alt=&quot;SpiceGUI showing simulation results&quot; title=&quot;SpiceGUI showing simulation results&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The solution I propose is &lt;em&gt;SpiceGUI&lt;/em&gt;. A program that aims to make circuit simulation on GNU/Linux operating systems easier with a modern and easy to use graphical user interface. &lt;em&gt;SpiceGUI&lt;/em&gt; makes more straightforward the process from schematic editing to result analysis with a Gtk 3 interface that doesn’t look as an alien as all other (Windows and Linux) simulation GUIs do. (Yes, there are a lot of Windows-based GUI circuit simulation tools, but all of them graphically sucks)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You can try &lt;em&gt;SpiceGUI&lt;/em&gt; building it from &lt;a href=&quot;https://github.com/rafael1193/spicegui/releases&quot;&gt;source&lt;/a&gt; or installing its &lt;a href=&quot;https://github.com/rafael1193/spicegui/releases&quot;&gt;RPM package&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+<pubDate>Fri, 12 Sep 2014 00:00:00 +0200</pubDate>
+<link>/2014/09/12/circuit-simulation-on-gnu-linux.html</link>
+<guid isPermaLink="true">/2014/09/12/circuit-simulation-on-gnu-linux.html</guid>
+</item>
+
+<item>
+<title>Fundación de IEEE Student Branch of Granada</title>
+<description>&lt;p&gt;Un grupo de estudiantes de la UGR hemos puesto en marcha una Rama Estudiantil del IEEE (Institute of Electrical and Electronics Engineers). El objetivo de esta rama, o Student Branch en inglés, es poner en práctica los conocimientos técnológicos aprendidos mediante la realización de proyectos.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/posts/2014-05-29-fundacion-de-ieee-student-branch-of-granada-0.jpg&quot;&gt;&lt;img style=&quot;width:100%&quot; alt=&quot;Algunos de los miembros fundadores de IEEE Student Branch of Granada&quot; src=&quot;/assets/img/posts/2014-05-29-fundacion-de-ieee-student-branch-of-granada-0.jpg&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Participamos en la IEEE Student Branch of Granada alumnos de Ingeniería Electrónica, Telecomunicaciones e Informática de Granada y Ceuta (donde la UGR también tiene sede). Los proyectos en los que vamos a trabajar por ahora son: un dron para cartografía, en colaboración con Asociación Electrial, y la construcción de un brazo robótico, que aún está en fase de planteamiento.&lt;/p&gt;
+
+&lt;p&gt;La recepción pública de la organización que acaba de nacer ha sido muy positiva y varios medios se han hecho eco de la noticia:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://secretariageneral.ugr.es/pages/tablon/*/noticias-canal-ugr/estudiantes-de-ingenieria-de-la-ugr-crean-una-rama-estudiantil-del-instituto-de-ingenieria-electrica-y-electronica-ieee&quot;&gt;Noticias UGR (29 mayo 2014)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.granadahoy.com/article/granada/1780539/nace/granada/la/rama/estudiantil/la/asociacion/mundial/ingenieros/ieee.html#.U4cfpQ-6gMA.twitter&quot;&gt;Granada Hoy (26 mayo 2014)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.economiadehoy.com/noticias/educacion/67222-estudiantes-de-ingenieria-de-la-ugr-crean-una-rama-estudiantil-del-instituto-de-ingenieria-electrica-y-electronica-ieee.html&quot;&gt;Economía de hoy (30 mayo 2014)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.andaluciadehoy.com/noticias/ultima-hora/50943-estudiantes-de-ingenieria-de-la-ugr-crean-una-rama-estudiantil-del-instituto-de-ingenieria-electrica-y-electronica-ieee.html&quot;&gt;Andalucía de hoy (30 mayo 2014)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.radiogranada.es/2014/05/29/estudiantes-de-ingenieria-de-la-ugr-crean-una-rama-estudiantil-del-instituto-de-ingenieria-electrica-y-electronica/&quot;&gt;Cadena Ser (29 mayo 2014)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.infocostatropical.com/noticia.asp?area=portada&amp;amp;id=57083&amp;amp;id_area=1&amp;amp;id_seccion=17&amp;amp;seccion=Provincia&quot;&gt;Infocosta Tropical (29 mayo 2014)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.iies.es/Estudiantes-de-la-Universidad-de-Granada-crean-una-rama-local-del-IEEE_a3665.html&quot;&gt;Instituto de la Ingeniería de España (29 mayo 2014)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.aulamagna.com.es/estudiantes-de-la-ugr-crean-una-rama-estudiantil-del-instituto-de-ingenieros-electricos-y-electronicos-ieee/&quot;&gt;Aula Magna (2 junio 2014)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://etsiit.ugr.es/pages/tablon/*/miscelaneo/creada-la-student-branch-del-ieee-en-la-ugr&quot;&gt;Noticias ETSIIT Universidad de Granada&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Espero que el éxito de este arranque no sea solo &lt;em&gt;hype&lt;/em&gt; y hagamos honor con nuestro trabajo a las expectativas que han puesto sobre nosotros&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Editado (2 junio): Apariencia en más periódicos&lt;/em&gt;&lt;/p&gt;
+</description>
+<pubDate>Thu, 29 May 2014 00:00:00 +0200</pubDate>
+<link>/2014/05/29/fundacion-de-ieee-student-branch-of-granada.html</link>
+<guid isPermaLink="true">/2014/05/29/fundacion-de-ieee-student-branch-of-granada.html</guid>
+</item>
+
+<item>
+<title>SUPREM process simulator for Linux</title>
+<description>&lt;p&gt;SUPREM is a 2D semiconductor process simulator made at Stanford University on the early nineties. Actually is the base of most process simulation commercial programs, like SPICE is on circuit simulation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/2014-04-15-suprem-process-simulator-for-linux-0.png&quot; alt=&quot;SUPREM 4GS running on Fedora 20&quot; title=&quot;SUPREM 4GS running on Fedora 20&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is not free (as in free speech), because distribution either in source or binary forms cannot be done for money, but you can use it for any other purpose: change the software to suit your needs and share the changes you make.&lt;/p&gt;
+
+&lt;p&gt;SUPREM is a really old UNIX software and doesn’t compile out–of–the–box on Linux. &lt;em&gt;Don’t blame Linux, he is too young for SUPREM :)&lt;/em&gt;. Makefiles are old, sources depend on raw X11 calls and building needs a GCC 3.x FORTRAN compiler, that is not available on all GNU/Linux distributions.&lt;/p&gt;
+
+&lt;p&gt;I am taking an integrated circuit design course this semester, and SUPREM is needed for semiconductor process simulation. Teacher provided us a windows build of SUPREM 4GS, but being SUPREM an UNIX program, it’s a sin running it on Wine like a burden Windows program :P&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cogenda Software&lt;/em&gt; provides updated Makefiles for Linux, but that’s not enough and more changes are needed. So I made these changes and SUPREM 4GS version builds with a&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;make depend &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;and runs on x86 and x86_64 Linuxes. The only cost it is not having X11 plotting support, that can easily be fixed using &lt;a href=&quot;https://home.comcast.net/~john.faricelli/tcad.htm&quot;&gt;POSTMINI graphical post processor&lt;/a&gt; available for Linux.&lt;/p&gt;
+
+&lt;p&gt;As other sources, &lt;a href=&quot;https://github.com/rafael1193/suprem4gs&quot;&gt;SUPREM for Linux can be downloaded from my github repository&lt;/a&gt;. I would like to make DEB and RPM packages for SUPREM, but I don’t know how to do it. Help is needed.&lt;/p&gt;
+</description>
+<pubDate>Tue, 15 Apr 2014 00:00:00 +0200</pubDate>
+<link>/2014/04/15/suprem-process-simulator-for-linux.html</link>
+<guid isPermaLink="true">/2014/04/15/suprem-process-simulator-for-linux.html</guid>
+</item>
+
+<item>
+<title>Comienzo</title>
+<description>&lt;p&gt;La idea de una web personal lleva rondándome la cabeza desde hace tiempo. Tener un &lt;em&gt;centro de operaciones&lt;/em&gt; donde contar lo que hago y lo que soy se me antoja importante.&lt;/p&gt;
+
+&lt;p&gt;No es la primera vez que administro un blog, pues el pasado he trabajado en mi &lt;a href=&quot;http://rafael1193.tumblr.com&quot; target=&quot;_blank&quot;&gt;tumblr&lt;/a&gt; y en &lt;a href=&quot;http://informaticaenred.wordpress.com&quot; target=&quot;_blank&quot;&gt;Informática En Red&lt;/a&gt; que, aunque era un blog sobre tecnología, siempre lo he visto como algo personal. Sin embargo siempre he echado de menos tener más control sobre su forma y estructura. Ambas plataformas son muy buenas para blogging, pero no como web personal donde mostrar algo más que posts.&lt;/p&gt;
+
+&lt;p&gt;Crear una web &lt;em&gt;a pelo&lt;/em&gt; utilizando html es duro y dificil de mantener. Nunca habría pensado que existieran sistemas como jekyll que permiten hacerlo mucho más sencillo mientra mantienes el control de todo el código. Utilizar este programa, inventado por la gente de github, es una experiencia interesante pues se ajusta muy bien al modelo git: código legible por humanos, que permite almacenar su histórico.&lt;/p&gt;
+
+&lt;p&gt;Aunque se tarda más en instalar una web usando jekyll, ya que tienes que buscarte la vida para mostrar la información (y hacerlo bien), sus características son bastante útiles y fáciles de usar. Puedo, por ejemplo, escribir un programa en python y mostrarlo con resaltado de sintaxis, sin necesidad de buscar ninguna biblioteca javascript o meterme en código php: sólo html o markdown (y en el backend, la magia de ruby).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;something&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;something&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Sin embargo, una web bonita pero vacía no es nada, y ahí es donde está el verdadero reto, llenarla de contenido con una misión: &lt;strong&gt;Si no está en internet, ¡no existe!&lt;/strong&gt;&lt;/p&gt;
+</description>
+<pubDate>Sat, 29 Mar 2014 00:00:00 +0100</pubDate>
+<link>/2014/03/29/comienzo.html</link>
+<guid isPermaLink="true">/2014/03/29/comienzo.html</guid>
+</item>
+
+</channel>
+</rss>
