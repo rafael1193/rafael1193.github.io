@@ -1,10 +1,13 @@
 image: assets/img/smile.jpg
 username: Rafael Bailon-Ruiz
-description: PhD in Robotics and Computer Science. I make robots think, and then act according to their thinking.
+description: PhD in Robotics and Computer Science. I make robots decide what to do, and then act according to their thinking.
 webpage: https://www.rafaelbailon.com
 experience: # Remove for hiding the experience section
-  - start: 2021
+  - start: 2023
     end: 
+    experience : ONERA, Research engineer
+  - start: 2021
+    end: 2023
     experience : ONERA, Post-doctoral researcher
   - start: 2020
     end: 2021
@@ -27,7 +30,7 @@ interests: # Remove for hiding the interests section
 #  - skill: Python
 #    value: 90  # Percent value
 social:
-  email: rafael@rafaelbailon.com
+  email: contact@rafaelbailon.com
   gpg: gpg
   orcid: 0000-0002-4896-7953
   scholar: 8YGaMOcAAAAJ
